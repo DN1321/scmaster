@@ -1,0 +1,20 @@
+Package: scmaster
+Title: Simple and useful functions for supply chain managers
+Description: An R package for supply chain optimization and forecasting.  
+  It includes functions for ABC analysis, Economic Order Quantity (EOQ),  
+  safety stock calculation, and transportation optimization using linear programming.  
+  The package provides essential tools for inventory management, logistics,  
+  and demand planning, ensuring efficient decision-making in supply chain operations.
+  Please note that the package is still an MVP and very lightweight.
+  Developers are welcome to participate in the project and contribute via GitHub.
+Version: 1.0.1
+Authors@R: c(person("Dario", "Nardiello", email = "darionardiello.scmaster@gmail.com", role = c("aut", "cre", "fnd")))
+License: MIT + file LICENSE
+URL: https://github.com/DN1321/scmaster
+BugReports: https://github.com/DN1321/scmaster/issues
+Depends: R (>= 4.0)
+Encoding: UTF-8
+Imports: lpSolve
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2

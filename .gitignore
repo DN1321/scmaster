@@ -1,0 +1,9 @@
+.Rhistory
+.RData
+.Rproj.user
+.Rproj
+.DS_Store
+
+# Ignore logs, tmp files, and other unwanted files
+*.log
+*.tmp
